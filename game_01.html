@@ -1,0 +1,24 @@
+<!doctype html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+	<link rel="stylesheet" href="css/common.css">
+	<link rel="stylesheet" href="css/game.css">
+</head>
+<body>
+	<div class="background" id="background">
+	
+		<div class="character" id="character" style="transform: translate({{position.x}}px,{{position.y}}px)">
+			<div id="character_hp" class="character-hp">
+				<div style="background:red;height:100%;width:${ character._hp / character._maxhp * 100 }%;"></div>
+			</div>
+		</div>
+		<div>background:red;height:100%;width:${character._hp / character._maxhp * 100}%}</div>
+		<div>asdsad{{character._hp}}{{character._maxhp}}</div>
+	</div>
+	<script src="js/shiv.js"></script>
+	<script src="js/main.js"></script>
+	<script src="js/createHero.js"></script>
+</body>
+</html>
